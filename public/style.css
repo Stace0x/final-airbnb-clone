@@ -7,6 +7,7 @@
 header {
    box-shadow: 0px 1px 8px #9f9f9f;
    padding: 1px 50px;
+   position: sticky;
 }
 
 body {
@@ -51,6 +52,8 @@ body {
 }
 
 
+
+
 /* <------ main -----> */
 
 .retail-contrainer {
@@ -68,6 +71,11 @@ body {
    border-radius: 100px;
 }
 
+.retail-price-text {
+   text-decoration: underline
+}
+
+
 /* ----- footer ------ */
 
 .footer-container {
@@ -79,6 +87,7 @@ body {
 }
 
 .footer-text {
+   color: #434242;
    font-size: 12px;
    cursor: pointer;
 }
@@ -86,15 +95,14 @@ body {
 /* <--- bottom navbar ---> */
 
 .bottom-navbar {
-   display: flex;
-   flex-direction: row;
-   align-items: center; 
+   cursor: pointer;
+   padding-bottom: 10px;
 }
 
 .bottom-navbar ul {
    list-style: none;
    display: flex;
    justify-content: space-evenly;
-   align-items: center;
+   align-content: center;
 }
 
